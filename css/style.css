@@ -95,7 +95,8 @@ footer {
 }
 
 .footer-left {
-    width: 12%;
+    height: 100%;
+    text-align: center;
 }
 
 .footer-center {
@@ -104,7 +105,6 @@ footer {
 }
 
 .footer-right {
-    width: 8%;
     background-color: var(--grey);
     height: 100%;
     text-align: center;
@@ -118,6 +118,7 @@ footer {
     color: var(--red);
     font-weight: bold;
     text-decoration: none;
+    padding: 0 1.5rem;
 }
 
 
