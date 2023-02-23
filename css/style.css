@@ -108,8 +108,17 @@ footer {
     color: var(--white);
 }
 
+.footer-left {
+    width: 12%;
+}
+
+.footer-right {
+    width: 8%;
+    background-color: var(--grey);
+}
+
 .red {
-    background-color: var(--red);
+    color: var(--red);
     text-decoration: none;
 }
 
