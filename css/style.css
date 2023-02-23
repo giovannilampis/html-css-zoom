@@ -30,12 +30,16 @@ body {
     display: flex;
 }
 
-.flex-jc-space-between {
+.jc-space-between {
     justify-content: space-between;
 }
 
-.flex-ai-center {
+.ai-center {
     align-items: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
 }
 
 .end {
