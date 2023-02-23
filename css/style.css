@@ -46,6 +46,13 @@ body {
     justify-content: flex-end;
 }
 
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /* GENERAL RULES */
 
 /* HEADER */
@@ -89,9 +96,40 @@ main {
     color: var(--head-main-bg);
 }
 
+main i {
+    font-size: 14px;
+}
+
 /* FOOTER */
 
 footer {
     height: 5rem;
     background-color: var(--foot-bg);
+    color: var(--white);
+}
+
+.red {
+    background-color: var(--red);
+    text-decoration: none;
+}
+
+footer a {
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+i {
+    color: var(--white);
+    font-size: 25px;
+}
+
+li {
+    list-style: none;
+    padding: 0 7px;
+}
+
+.green-item {
+    color: var(--green);
 }
