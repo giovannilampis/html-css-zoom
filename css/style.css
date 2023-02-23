@@ -1,8 +1,8 @@
 /* color variables */
 
 :root {
-    --head-foot-bg: rgba(34, 34, 34, 1);
-    --main-bg: rgba(0, 0, 0, 1);
+    --foot-bg: rgba(34, 34, 34, 1);
+    --head-main-bg: rgba(0, 0, 0, 1);
     --green: rgba(75, 199, 0, 1);
     --grey: rgba(170, 170, 174, 1);
     --red: rgba(175, 53, 65, 1);
@@ -21,7 +21,7 @@ body {
     font-family: 'Lato',Arial, Helvetica, sans-serif;
 }
 
-.flex {
+.flexbox {
     display: flex;
 }
 
@@ -33,22 +33,29 @@ body {
     align-items: center;
 }
 
+.end {
+    justify-content: flex-end;
+}
+
 /* GENERAL RULES */
 
 /* HEADER */
 
 header {
     height: 5rem;
+    background-color: var(--head-main-bg);
 }
 
 /* MAIN */
 
 main {
     height: 100vh - 10rem;
+    background-color: var(--head-main-bg);
 }
 
 /* FOOTER */
 
 footer {
     height: 5rem;
+    background-color: var(--foot-bg);
 }
