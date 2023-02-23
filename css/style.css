@@ -98,9 +98,16 @@ footer {
     width: 12%;
 }
 
+.footer-center {
+    height: 100%;
+    text-align: center;
+}
+
 .footer-right {
     width: 8%;
     background-color: var(--grey);
+    height: 100%;
+    text-align: center;
 }
 
 .text-center {
