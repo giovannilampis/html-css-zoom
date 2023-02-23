@@ -6,6 +6,7 @@
     --green: rgba(75, 199, 0, 1);
     --grey: rgba(170, 170, 174, 1);
     --red: rgba(175, 53, 65, 1);
+    --white: rgb(255, 255, 255);
 }
 
 /* UTILITIES */
@@ -15,6 +16,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+img {
+    width: 100%;
 }
 
 body {
@@ -51,6 +56,28 @@ header {
 main {
     height: 100vh - 10rem;
     background-color: var(--head-main-bg);
+    border: 1px solid var(--head-main-bg);
+}
+
+.card {
+    width: calc((100% - 6px) / 7);
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.top-absolute {
+    right: 0;
+    top: 0.2rem;
+    color: var(--white);
+}
+
+.user-absolute {
+    left: 0;
+    bottom: 0;
+    color: var(--head-main-bg);
 }
 
 /* FOOTER */
