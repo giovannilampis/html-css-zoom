@@ -59,7 +59,7 @@ header {
 /* MAIN */
 
 main {
-    height: 100vh - 10rem;
+    height: calc(100vh - 10rem);
     background-color: var(--head-main-bg);
     border: 1px solid var(--head-main-bg);
 }
