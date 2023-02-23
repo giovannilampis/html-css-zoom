@@ -59,6 +59,11 @@ main {
     border: 1px solid var(--head-main-bg);
 }
 
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
 .card {
     width: calc((100% - 6px) / 7);
     position: relative;
