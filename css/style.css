@@ -12,3 +12,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.flex {
+    display: flex;
+}
+
+.flex-jc-space-between {
+    justify-content: space-between;
+}
+
+.flex-ai-center {
+    align-items: center;
+}
+
+/* GENERAL RULES */
+
+/* HEADER */
+
+header {
+    height: 5rem;
+}
+
+/* MAIN */
+
+main {
+    height: 100vh - 10rem;
+}
+
+/* FOOTER */
+
+footer {
+    height: 5rem;
+}
