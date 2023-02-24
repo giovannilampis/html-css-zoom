@@ -159,7 +159,7 @@ li {
     color: var(--white);
     background-color: var(--grey);
     padding: 0.2rem 0.2rem;
-    border-radius: 0.6rem;
+    border-radius: 0.4rem;
     font-size: 0.6rem;
     font-weight: bold;
 }
