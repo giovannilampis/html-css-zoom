@@ -4,10 +4,10 @@
     --foot-bg: rgba(34, 34, 34, 1);
     --head-main-bg: rgba(0, 0, 0, 1);
     --green: rgba(75, 199, 0, 1);
-    --grey: rgba(170, 170, 174, 1);
+    --grey: rgba(52, 52, 52, 1);
     --red: rgba(175, 53, 65, 1);
     --white: rgb(255, 255, 255);
-    --light-gray: rgba(211, 211, 211, 0.3);
+    --pincobg: rgba(211, 211, 211, 0.3);
 }
 
 /* UTILITIES */
@@ -144,23 +144,27 @@ li {
 
 .top-absolute {
     right: 0;
-    top: 0.2rem;
+    top: 0.3rem;
 }
 
 .user-absolute {
     left: 0;
-    bottom: 0;
-    color: var(--head-main-bg);
+    bottom: 0.2rem;
+    padding: 0.1rem 0.2rem;
+    color: var(--white);
+    background-color: var(--pincobg);
 }
 
-.view {
+.speaker-enlarge {
     color: var(--white);
     background-color: var(--grey);
     padding: 0.2rem 0.2rem;
     border-radius: 0.6rem;
+    font-size: 0.6rem;
+    font-weight: bold;
 }
 
-.view i {
+.speaker-enlarge i {
     font-size: 0.6rem;
     font-weight: bold;
 
